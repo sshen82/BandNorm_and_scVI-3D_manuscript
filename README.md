@@ -5,4 +5,4 @@ Data can be downloaded from https://pages.stat.wisc.edu/~sshen82/bandnorm/, whic
 
 In this repository, there are three folders. runAlgorithms folder consists of all codes that run algorithms to do clustering and lower-dimension reduction for scHi-C data. FigureGeneration includes all codes for generating figures in the article. OtherCodes includes codes performing other analyses such as calculating insulation.
 
-For more questions, please email sshen82@wisc.edu 
+For more questions, please email sshen82@wisc.edu for clarification.
