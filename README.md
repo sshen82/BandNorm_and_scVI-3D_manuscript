@@ -8,7 +8,7 @@ The software source codes are deposited at
 
 - **scVI-3D** (Python tool): https://github.com/yezhengSTAT/scVI-3D
 
-The curated scHi-C data used in this manuscript are cleaned and organized at https://pages.stat.wisc.edu/~sshen82/bandnorm/ for easy access and direct usage in BandNorm and scVI-3D. This online data repository contains five scHi-C data sets. The dataset name, reference and raw data source are summarized below:
+The curated scHi-C data used in this manuscript are cleaned and organized at https://pages.stat.wisc.edu/~sshen82/bandnorm/ for easy access and direct usage in BandNorm and scVI-3D. This online data repository contains five scHi-C data sets, all at 1Mb. The dataset name, reference and raw data source are summarized below:
 
 - **Ramani2017**: GEO accession number GSE84920. [Ramani, Vijay, et al. "Massively multiplex single-cell Hi-C." Nature methods 14.3 (2017): 263-266.](https://www.nature.com/articles/nmeth.4155)
 
@@ -20,16 +20,16 @@ The curated scHi-C data used in this manuscript are cleaned and organized at htt
 
 - Tan2021**: GEO accession number GSE162511. [Tan, Longzhi, et al. "Changes in genome architecture and transcriptional dynamics progress independently of sensory experience during post-natal brain development." Cell 184.3 (2021): 741-758.](https://www.sciencedirect.com/science/article/pii/S0092867420317542)
 
-The metadata summaries that contain the cell barcode, cell type, sequencing depth and sparsity for each data set are also provided at https://pages.stat.wisc.edu/~sshen82/bandnorm/Summary/.
+The metadata summaries that contains the cell barcode, cell type, sequencing depth and sparsity for each data set are also provided at https://pages.stat.wisc.edu/~sshen82/bandnorm/Summary/.
 
 In this repository, the scripts are classified into three subfolders based on the purpose. 
 
 - **RunAlgorithms** folder contains scripts to run BandNorm, scVI-3D, scHi-C normalization baseline methods that we created for comparison and other publically available tools including [scHiCluster](https://github.com/zhoujt1994/scHiCluster), [scHiC Topics](https://github.com/khj3017/schic-topic-model) and [Higashi](https://github.com/ma-compbio/Higashi). The outputs of those scripts provide lower-dimensional embeddings and normalized scHi-C counts, which will be used for the downstream analysis and generating figures.
 
-- **AnalysisCodes** folder contains analysis-related scripts to implement evaluation, comparison and biological discoveries.
+- **AnalysisCodes** folder contains analysis related scripts to implement evaluation, comparison and biological discoveries.
 
 - **FigureGeneration** folder contains scripts that generate the figures in the manuscript.
 
-For questions, please email Siqi Shen (sshen82@wisc.edu) or submit a new issue at this repository.
+For questions, please email Siqi Shen (sshen82@wisc.edu) or submit new issue at this repository.
 
 This BandNorm_and_scVI-3D_manuscript repository is protected by GNU GPL 3 license. Please refer to LICENSE.md for using codes in this repository for your own purposes.
