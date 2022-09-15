@@ -8,7 +8,7 @@ The software source codes are deposited at
 
 - **scVI-3D** (Python tool): https://github.com/yezhengSTAT/scVI-3D
 
-The curated scHi-C data used in this manuscript are cleaned and organized at https://pages.stat.wisc.edu/~sshen82/bandnorm/ for easy access and direct usage in BandNorm and scVI-3D. This online data repository contains five scHi-C data sets, all at 1Mb. The dataset name, reference and raw data source are summarized below:
+The curated scHi-C data used in this manuscript are cleaned and organized at https://pages.stat.wisc.edu/~sshen82/bandnorm/ for easy access and direct usage in BandNorm and scVI-3D. This online data repository contains five scHi-C data sets, all at 1Mb. The dataset name, raw data source and reference are summarized below:
 
 - **Ramani2017**: GEO accession number GSE84920. [Ramani, Vijay, et al. "Massively multiplex single-cell Hi-C." Nature methods 14.3 (2017): 263-266.](https://www.nature.com/articles/nmeth.4155)
 
@@ -18,7 +18,7 @@ The curated scHi-C data used in this manuscript are cleaned and organized at htt
 
 - **Kim2020**: https://noble.gs.washington.edu/proj/schic-topic-model/. [Kim, Hyeon-Jin, et al. "Capturing cell type-specific chromatin compartment patterns by applying topic modeling to single-cell Hi-C data." PLoS computational biology 16.9 (2020): e1008173.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008173)
 
-- Tan2021**: GEO accession number GSE162511. [Tan, Longzhi, et al. "Changes in genome architecture and transcriptional dynamics progress independently of sensory experience during post-natal brain development." Cell 184.3 (2021): 741-758.](https://www.sciencedirect.com/science/article/pii/S0092867420317542)
+- **Tan2021**: GEO accession number GSE162511. [Tan, Longzhi, et al. "Changes in genome architecture and transcriptional dynamics progress independently of sensory experience during post-natal brain development." Cell 184.3 (2021): 741-758.](https://www.sciencedirect.com/science/article/pii/S0092867420317542)
 
 The metadata summaries that contains the cell barcode, cell type, sequencing depth and sparsity for each data set are also provided at https://pages.stat.wisc.edu/~sshen82/bandnorm/Summary/.
 
