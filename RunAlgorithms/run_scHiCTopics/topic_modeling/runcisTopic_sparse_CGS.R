@@ -8,8 +8,8 @@ library(Matrix)
 
 mat_file <- "cs_mat.csv" # cell-LP matrix in sparse matrix format
 lp_label_file <- "human_10_1000000_LPnames.txt" # LP annotations (i.e. LP names)
-out_dir <- "/p/keles/schic/volumeA/Duan2020/cstopic/cistopic_step3" # out directory
-cell_file <- "/p/keles/schic/volumeA/Duan2020/duan2020_summary.txt"
+out_dir <- "cistopic_output" # out directory
+cell_file <- "summary.txt" #summary file
 low_b <- 10 # lowest topic number to try
 up_b <- 90 # highest topic number to try
 increment <- 5 # increment for topics
@@ -65,6 +65,6 @@ cisTopicObject <- createcisTopicObject(mat, project.name="full_cisTopic", keepCo
 cisTopicObject <- addCellMetadata(cisTopicObject, cell.data = cell_list)
 cisTopicObject <- runCGSModels(cisTopicObject, topic=topic_list, seed=999, nCores=length(topic_list))
 cisTopicObject = selectModel(cisTopicObject, type='maximum')
-saveRDS(cisTopicObject, file="/p/keles/schic/volumeA/Duan2020/cstopic/cistopic_step3/cisTopicObject_CGS.rds")
+saveRDS(cisTopicObject, file="./output/cisTopicObject_CGS.rds")
 
 
