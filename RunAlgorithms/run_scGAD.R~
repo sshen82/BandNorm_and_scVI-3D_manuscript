@@ -1,0 +1,9 @@
+library(BandNorm)
+
+inPath <- "/fh/fast/gottardo_r/yezheng_working/others/scHiC/data/Ecker2019/Counts_100kb_filter2500/"
+outPath <- "/fh/fast/gottardo_r/yezheng_working/others/scHiC/results/Ecker2019_scGAD/RDS/"
+
+gad_score = scGAD(path = inPath, genes = hg19Annotations, depthNorm = TRUE, cores = 3, threads = 8)
+head(gad_score)
+
+saveRDS(gad_score, file = paste0(outPath, "gad_score_100kb_filter2500.rds")) 
